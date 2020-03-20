@@ -1,17 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <el-container>
+    <el-aside>
+      SideMenu
+    </el-aside>
+    <el-container>
+      <el-header>
+        Top Search Bar
+      </el-header>
+      <el-main>
+        <offer-page />
+      </el-main>
+    </el-container>
+  </el-container>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import OfferPage from './components/OffersPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    OfferPage
   }
 }
 </script>
