@@ -1,5 +1,17 @@
 <template>
   <div>
+    <h1>Offers</h1>
+    <el-row :gutter="12">
+      <el-col :span="3">
+        <i class="el-icon-s-ticket"></i>&nbsp;Coupons
+      </el-col>
+      <el-col :span="3">
+        <i class="el-icon-bank-card"></i>&nbsp;Payments
+      </el-col>
+      <el-col :span="3">
+        <i class="el-icon-s-platform"></i>&nbsp;Sales Pages
+      </el-col>
+    </el-row>
     <el-card class="offer-stats">
       <el-row :gutter="20">
         <el-col :span="8">
